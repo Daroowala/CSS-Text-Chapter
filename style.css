@@ -20,7 +20,6 @@ h1{
 p{
     font-family: Oswald-Regular;
     text-transform: capitalize;
-    
 }
 h2{
     color: brown;
@@ -30,6 +29,29 @@ h2{
 }
 .p1{
    color: brown;
-   text-indent: 10%;
+   text-indent: 20%;
    text-align: center;
+text-shadow: 20cm;
+}
+.p2{
+    color: black;
+    text-shadow: 1px 3px 4px red;
+    letter-spacing: .30cm; 
+}
+.p3::first-letter{
+    color: red;
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.p1:first-line{
+    font-family: 'Times New Roman', Times, serif;
+}
+a:link{
+color: crimson;
+}
+a:visited{
+    color: fuchsia;
+}
+a.vist{
+    color: blue;
 }
