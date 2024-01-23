@@ -1,57 +1,63 @@
 @font-face {
-    font-family: Oswald-Regular;
-    src: url(./Font/Oswald-Regular.ttf);
+  font-family: Oswald-Regular;
+  src: url(./Font/Oswald-Regular.ttf);
 }
 
-
-
-
-h1{
-    color: red;
-    font-family: serif;
-    font-weight: 500;
-    font-style: oblique;
-    font-stretch: expanded;
-    font-size: 40px;
-    word-spacing: 0.01cm;
-    letter-spacing: 0.6cm;
-    text-align: center;
+h1 {
+  color: red;
+  font-family: serif;
+  font-weight: 500;
+  font-style: oblique;
+  font-stretch: expanded;
+  font-size: 40px;
+  word-spacing: 0.01cm;
+  letter-spacing: 0.6cm;
+  text-align: center;
 }
-p{
-    font-family: Oswald-Regular;
-    text-transform: capitalize;
+p {
+  font-family: Oswald-Regular;
+  text-transform: capitalize;
 }
-h2{
-    color: brown;
-    text-decoration: underline;
-    line-height: 200%;
-    text-align: center;
+h2 {
+  color: brown;
+  text-decoration: underline;
+  line-height: 200%;
+  text-align: center;
 }
-.p1{
-   color: brown;
-   text-indent: 20%;
-   text-align: center;
-text-shadow: 20cm;
+.p1 {
+  color: brown;
+  text-indent: 20%;
+  text-align: center;
+  text-shadow: 20cm;
 }
-.p2{
-    color: black;
-    text-shadow: 1px 3px 4px red;
-    letter-spacing: .30cm; 
+.p2 {
+  color: black;
+  text-shadow: 1px 3px 4px red;
+  letter-spacing: 0.3cm;
 }
-.p3::first-letter{
-    color: red;
-    font-size: 400%;
-    font-family: 'Times New Roman', Times, serif;
+.p3::first-letter {
+  color: red;
+  font-size: 400%;
+  font-family: "Times New Roman", Times, serif;
 }
-.p1:first-line{
-    font-family: 'Times New Roman', Times, serif;
+.p1:first-line {
+  font-family: "Times New Roman", Times, serif;
 }
-a:link{
-color: crimson;
+a:link {
+  color: crimson;
 }
-a:visited{
-    color: fuchsia;
+a:visited {
+  color: fuchsia;
 }
-a.vist{
-    color: blue;
+a.vist {
+  color: blue;
+}
+input:hover{
+    background-color: greenyellow;
+}
+input:focus{
+    background-color: red;
+}
+button:active{
+    background-color: blueviolet;
 }
